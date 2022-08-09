@@ -19,7 +19,7 @@ public class DateParse {
       /*  System.out.println("date...");//E MMM dd HH:mm:ss Z yyyy//20180326010159
 
         System.out.println(new SimpleDateFormat("yyyyMMddHHmmss").format( new Date()));*/
-      //  System.out.println(formatDate("Mon Mar 26 01:01:59 IST 2018","EEE MMM dd HH:mm:ss zzz yyyy","yyyyMMddHHmmss"));
+        //  System.out.println(formatDate("Mon Mar 26 01:01:59 IST 2018","EEE MMM dd HH:mm:ss zzz yyyy","yyyyMMddHHmmss"));
         //stringToDate();
 
     }
@@ -33,23 +33,22 @@ public class DateParse {
             SimpleDateFormat newFrmt = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
             finalString = newFrmt.format(date);
         } catch (ParseException e) {
-          e.printStackTrace();
+            e.printStackTrace();
         }
     }
 
 
+    public static String formatDate(String dateString, String fromFormat, String toFormat) {
 
-        public static String formatDate(String dateString, String fromFormat, String toFormat) {
+        try {
 
-            try {
+            Date date = new SimpleDateFormat(fromFormat).parse(dateString);
+            return new SimpleDateFormat(toFormat).format(date.getTime());
 
-                    Date date = new SimpleDateFormat(fromFormat).parse(dateString);
-                    return new SimpleDateFormat(toFormat).format(date.getTime());
+        } catch (ParseException e) {
+            e.printStackTrace();
 
-            } catch (ParseException e) {
-               e.printStackTrace();
-
-            }
-            return null;
-     }
+        }
+        return null;
+    }
 }

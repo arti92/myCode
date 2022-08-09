@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/ENTERPRISE/enterprise-workorderlifecyle-mngt/SourceCode/digitalapi-sp-ent-wo-lifecycle-mngt-oe-service-app/src/main/java/com/jio/digitalapi/workordermngt/oe/datamapper/IssueCustOrderDataMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/customer-order-mngt/SourceCode/digitalapi-ent-customerorder-lifecycle-mngt-proxyapp/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/floworks/fwx-macd-configure-customer-identity-worker/SourceCode/fwx-macd-configure-customer-identity-worker-app/src/main/java/com/jio/digitalapi/cci/worker/ConfigCustomerIdentConstant.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/floworks/fwx-macd-configure-customer-identity-worker/SourceCode/fwx-macd-configure-customer-identity-worker-app/src/main/java/com/jio/digitalapi/cci/worker/bindings/ConfigCustomerIdentReceiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/floworks/fwx-macd-configure-customer-identity-worker/SourceCode/fwx-macd-configure-customer-identity-worker-app/src/main/java/com/jio/digitalapi/cci/worker/datamapper/ConfigCustomerIdentRequestMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/floworks/fwx-macd-configure-customer-identity-worker/SourceCode/fwx-macd-configure-customer-identity-worker-app/src/main/java/com/jio/digitalapi/cci/worker/datamapper/jaxbmapper/ProductJAXBMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/floworks/fwx-macd-configure-customer-identity-worker/SourceCode/fwx-macd-configure-customer-identity-worker-app/src/main/java/com/jio/digitalapi/cci/worker/datamapper/jaxbmapper/ServiceJAXBMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/floworks/fwx-macd-configure-customer-identity-worker/SourceCode/fwx-macd-configure-customer-identity-worker-app/src/main/java/com/jio/digitalapi/cci/worker/service/ConfigCustomerIdentBusinessService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/floworks/fwx-macd-configure-customer-identity-worker/SourceCode/fwx-macd-configure-customer-identity-worker-app/src/main/java/com/jio/digitalapi/cci/worker/service/impl/ConfigCustomerIdentBusinessServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/floworks/fwx-macd-configure-customer-identity-worker/SourceCode/fwx-macd-configure-customer-identity-worker-app/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/floworks/fwx-macd-configure-customer-identity-worker/SourceCode/fwx-macd-configure-customer-identity-worker-app/src/test/java/com/jio/digitalapi/cci/worker/datamapper/ConfigCustomerIdentRequestMapperTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/floworks/fwx-macd-configure-customer-identity-worker/SourceCode/fwx-macd-configure-customer-identity-worker-app/src/test/java/com/jio/digitalapi/cci/worker/datamapper/jaxbmapper/ProductJAXBMapperTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/floworks/fwx-macd-configure-customer-identity-worker/SourceCode/fwx-macd-configure-customer-identity-worker-app/target/generated-sources/annotations/com/jio/digitalapi/cci/worker/datamapper/jaxbmapper/ProductJAXBMapperImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/floworks/fwx-macd-process-one-time-charge-worker/SourceCode/fwx-macd-process-one-time-charge-worker-app/src/main/java/com/jio/digitalapi/onetimecharge/worker/bindings/OneTimeChargeWorker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/floworks/fwx-macd-process-one-time-charge-worker/SourceCode/fwx-macd-process-one-time-charge-worker-app/src/test/java/com/jio/digitalapi/onetimecharge/worker/datamapper/OneTimeChargeDatamapperTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/floworks/fwx-macd-process-one-time-charge-worker/SourceCode/fwx-macd-process-one-time-charge-worker-app/target/chargingaccountmanagement/com/rjil/oe/deductonetimecharge/OneTimeCharge.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/milestone-maintenance/SourceCode/digitalapi-milestone-maint-proxy-app/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/milestone-maintenance/SourceCode/digitalapi-milestone-maint-proxy-app/src/main/java/jio/digitalapi/app/milestone_maintenance/MilestoneMaintApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/milestone-maintenance/SourceCode/digitalapi-milestone-maint-proxy-app/src/main/java/jio/digitalapi/app/milestone_maintenance/service/impl/MilestoneMaintBusinessServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/milestone-maintenance/SourceCode/digitalapi-milestone-maint-proxy-app/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/milestone-maintenance/SourceCode/digitalapi-milestone-maint-proxy-app/src/test/java/jio/digitalapi/app/milestone_maintenance/datamapper/ReceiveMilestoneJAXBMapperTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/milestone-maintenance/SourceCode/digitalapi-milestone-maint-service-app/src/main/java/jio/digitalapi/app/milestone_maintenance/MilestoneMaintInstanceConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/milestone-maintenance/SourceCode/digitalapi-milestone-maint-service-app/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/mobility-customer-order/SourceCode/digitalapi-order-info-mngt-app/src/main/java/com/jio/digitalapi/customerorder/info/mngt/service/api/impl/CustomerOrderInfoManagementApiServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/mobility-customer-order/SourceCode/digitalapi-order-info-mngt-app/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/mobility-customer-order/SourceCode/digitalapi-order-info-mngt-app/src/main/resources/st_application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/mobility-customer-order/SourceCode/digitalapi-order-info-mngt-service/src/main/java/com/jio/digitalapi/customerorder/info/mngt/CustomerOrderInfoConfigProperties.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/mobility-customer-order/SourceCode/digitalapi-order-info-mngt-service/src/main/java/com/jio/digitalapi/customerorder/info/mngt/service/impl/CustomerOrderInfoManagementBusinessServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/mobility-customer-order/SourceCode/digitalapi-order-info-mngt-service/src/main/resources/META-INF/spring.factories">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/mobility-customer-order/SourceCode/mobility-customerorder-mngt-ws-proxy-app/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/mobility-customer-order/SourceCode/mobility-customerorder-mngt-ws-proxy-app/src/main/resources/st_application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/order-info-mngt/SourceCode/digitalapi-ent-order-info-mngt-proxyapp/src/main/java/com/jio/digitalapi/orderInfoMngt/service/impl/OrderInfoMngtBusinessServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/order-info-mngt/SourceCode/digitalapi-ent-order-info-mngt-proxyapp/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/sp-inventory-inquiry/SourceCode/digitalapi-sp-inventory-inquiry-app/src/main/java/jio/digitalapi/app/sp/inventory/inquiry/SpInventoryInqConstant.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../git_workspace/sp-inventory-inquiry/SourceCode/digitalapi-sp-inventory-inquiry-app/src/main/java/jio/digitalapi/app/sp/inventory/inquiry/mapper/QueryInvRequestDataServiceMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringTest/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringTest/src/main/java/MainApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringTest/src/main/java/test/spring/service/Harddisk.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringTest/src/main/java/test/spring/service/impl/HitachiHdd.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SpringTest/src/main/java/test/spring/service/impl/SamsungHdd.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../test-spring/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/algo/BFS.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/algo/MergeSort.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/algo/Queueeuueeue.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/algo/QuickSort.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/algo/QuickSortExample.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/algo/examples/BinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/array/InsertArray.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/array/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/array/medium/mediumCode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/bstEx/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/collection/BinarySerchTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/collection/BinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/collection/Tree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/collection/TreeTraversal.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/collection/examples/BinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/collection/examples/BinaryTreeExamples.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/collection/examples/CountNegativeBst.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/collection/examples/EasyBstEx.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/collection/examples/ElementPos.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/collection/examples/ReversalBTEx.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/collection/examples/TraversalBTEx.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/collection/examples/TreeNode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/collection/examples/TreeTraversal.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/collection/examples/TreeTraversalExamples.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/collection/examples/ValidateBST.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/design/pattern/structure/decorator/ChineseFood.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/design/pattern/structure/decorator/Food.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/design/pattern/structure/decorator/FoodDecorator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/design/pattern/structure/decorator/MainClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/design/pattern/structure/decorator/NonVegFood.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/design/pattern/structure/decorator/VegFood.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/design/pattern/structure/decorator/a.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behaviour/command/Bulp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behaviour/mediator/ApnaChat.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behaviour/mediator/ApnaChatImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behaviour/mediator/MainClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behaviour/mediator/Participent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behaviour/mediator/User1.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behaviour/mediator/User2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behaviour/memnto/Caretaker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behaviour/memnto/MainClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behaviour/memnto/Memento.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behaviour/memnto/Originator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behavioure/command/Bulp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behavioure/command/Command.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behavioure/command/Invoker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behavioure/command/Light.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behavioure/command/MainClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behavioure/command/OffComand.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behavioure/command/OffCommand.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behavioure/command/OnCommand.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behavioure/command/Receiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/behavioure/command/Reciver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/structure/decorator/Food.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/structure/decorator/FoodDecorator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/dp/structure/decorator/MainClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/example/EasyExamples.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/example/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/plan1/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/plan1/Easy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/string/EasyEx.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/string/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/string/MediumEx.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
