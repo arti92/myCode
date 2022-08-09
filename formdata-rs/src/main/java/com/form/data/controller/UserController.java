@@ -36,18 +36,26 @@ public class UserController {
     }
 
     @PutMapping("/Users/{id}")
-    public User updateUser(@PathVariable(value = "id") Long UserId, @RequestBody User UserDetails) {
+    public User updateUser(@PathVariable(value = "id") Long UserId, @RequestBody User userDetails) {
 
-        User User = userRepository.findById(UserId)
+        User user = userRepository.findById(UserId)
                 .orElseThrow(() -> new ResourceNotFoundException("User", "id", UserId));
 
-       // User.setPostName(UserDetails.getPostName());
-        //User.setUser(UserDetails.getUser());
+        user.setFirstName(userDetails.getFirstName());
+        user.setEmail(userDetails.getEmail());
+        user.setLastName(userDetails.getLastName());
+        user.setPassword(userDetails.getPassword());
+        user.setActive(userDetails.isActive());
+        if (userDetails.isActive() == null) {
+            user.setActive(true);
+        }
 
-        User updatedUser = userRepository.save(User);
+
+        User updatedUser = userRepository.save(user);
         return updatedUser;
     }
 
+    //TODO: Soft delete
     @DeleteMapping("/Users/{id}")
     public ResponseEntity<?> deleteUser(@PathVariable(value = "id") Long UserId) {
         User User = userRepository.findById(UserId)
