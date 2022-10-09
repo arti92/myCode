@@ -3,6 +3,7 @@ package com.form.data.controller;
 import com.form.data.exception.ResourceNotFoundException;
 import com.form.data.model.User;
 import com.form.data.repository.UsersRepository;
+import com.form.data.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,29 +14,32 @@ import java.util.List;
  * @author Arti.Jadhav
  */
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/v1")
 public class UserController {
 
     @Autowired
     UsersRepository userRepository;
 
-    @GetMapping("/Users")
+    @Autowired
+    UserService userService;
+
+    @GetMapping("/users")
     public List<User> getAllUsers() {
         return userRepository.findAll();
     }
 
-    @PostMapping("/Users")
+    @PostMapping("/users")
     public User createUser(@RequestBody User User) {
         return userRepository.save(User);
     }
 
-    @GetMapping("/Users/{id}")
+    @GetMapping("/users/{id}")
     public User getUserById(@PathVariable(value = "id") Long UserId) {
         return userRepository.findById(UserId)
                 .orElseThrow(() -> new ResourceNotFoundException("User", "id", UserId));
     }
 
-    @PutMapping("/Users/{id}")
+    @PutMapping("/users/{id}")
     public User updateUser(@PathVariable(value = "id") Long UserId, @RequestBody User userDetails) {
 
         User user = userRepository.findById(UserId)
@@ -55,8 +59,22 @@ public class UserController {
         return updatedUser;
     }
 
+    @PutMapping("/isUpdate/{id}")
+    public Boolean isUserUpdate(@PathVariable(value = "id") Long UserId, @RequestBody User userDetails) {
+
+        User user = userRepository.findById(UserId)
+                .orElseThrow(() -> new ResourceNotFoundException("User", "id", UserId));
+
+        user.setFirstName(userDetails.getFirstName());
+        user.setEmail(userDetails.getEmail());
+        user.setLastName(userDetails.getLastName());
+
+        return userService.isUpdate(user);
+
+    }
+
     //TODO: Soft delete
-    @DeleteMapping("/Users/{id}")
+    @DeleteMapping("/users/{id}")
     public ResponseEntity<?> deleteUser(@PathVariable(value = "id") Long UserId) {
         User User = userRepository.findById(UserId)
                 .orElseThrow(() -> new ResourceNotFoundException("User", "id", UserId));
