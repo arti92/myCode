@@ -12,7 +12,7 @@ public class MergeSort {
 
     public static void main(String[] args) {
         int[] array = {1, 9, 6, 2, 7};
-        // mergeSort(array);
+         mergeSort(array);
 
         //merge sort using list
         List<Integer> list = new ArrayList<>();
@@ -22,7 +22,7 @@ public class MergeSort {
         list.add(2);
         list.add(7);
 
-        mergeListSort(list);
+       // mergeListSort(list);
 
     }
 
@@ -103,6 +103,7 @@ public class MergeSort {
         // merge gets called and will sort left side (last two then last 3)
         //once left side done...right element again sorted and at the end full array gets sorted
         //and sort by comapring right and left
+        System.out.println("before merger call");
         merge(left, right, array);
     }
 
@@ -119,7 +120,7 @@ public class MergeSort {
         while (l < left.length && r < right.length) {
             //left contain smaller element
             if (left[l] < right[r]) {
-                array[i++] = left[l++];
+                array[i++] = left[l++]; //add small in array and then increase the index
             } else {
                 array[i++] = right[r++];
             }

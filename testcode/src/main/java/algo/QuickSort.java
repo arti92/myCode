@@ -28,7 +28,7 @@ public class QuickSort {
         list.add(1);
         // qs.quickSortList(list);
 
-        int[] arr = {3, 6, 10, 12, 13, 24, 70, 90};
+        int[] arr = {3, 60, 10, 12, 13, 24, 70, 90};
         //int[] arr = {5, 2, 3, 6, 1};
         qs.quickSortUsingPart(arr, 0, arr.length - 1); // infinte as left and right arr size in unkonwn
 

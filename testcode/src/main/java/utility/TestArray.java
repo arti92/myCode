@@ -13,13 +13,15 @@ public class TestArray {
     private static final String inputFile = "C:\\Users\\Shrikant.Mulik\\Documents\\Jio\\Open_api";
     private static final List<String> classes = Arrays.asList(new String[]{"'number'", "'array'", "'object'", "'string'", "'boolean'"});
 
+    static  TestArray test = new TestArray();
 
     public static void main(String[] args) throws IOException {
+
 
         File file = new File(inputFile);
         for (File fileName : file.listFiles()) {
             if (fileName.isFile())
-                doProcess(fileName);
+                test.doProcess(fileName);
         }
 
         System.out.println("Done");
@@ -51,7 +53,7 @@ public class TestArray {
         //   System.out.println("Data::"+dataTypes.toString());
     }
 
-    private static void doProcess(File fileName) throws IOException {
+    private  void doProcess(File fileName) throws IOException {
         String line = new String(Files.readAllBytes(Paths.get(fileName.getAbsolutePath())));
 
         for (String className : classes) {
